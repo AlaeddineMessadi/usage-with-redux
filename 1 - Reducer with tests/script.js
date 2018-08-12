@@ -2,7 +2,7 @@ const counter = (state = 0, action) => {
     switch (action.type){
         case 'INCREMENT':
          return state+1;
-        case 'DECREMANT':
+        case 'DECREMENT':
           return state-1;
         default:
           return state;
@@ -18,11 +18,11 @@ expect(
 ).toEqual(2);
 
 expect(
-    counter(2, {type: 'DECREMANT'})
+    counter(2, {type: 'DECREMENT'})
 ).toEqual(1);
 
 expect(
-    counter(5, {type: 'DECREMANT'})
+    counter(5, {type: 'DECREMENT'})
 ).toEqual(4)
 
 console.log('Tests passed!!!')
