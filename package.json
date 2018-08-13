@@ -1,0 +1,8 @@
+{
+  "name": "usage-with-redux-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AlaeddineMessadi/usage-with-redux-redux.git",
+  "author": "AlaeddineMessadi <10847134+AlaeddineMessadi@users.noreply.github.com>",
+  "license": "MIT"
+}

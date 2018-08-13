@@ -58,11 +58,3 @@ const render = () => {
 store.subscribe(render);
 
 render();
-
-increment.addEventListener('click', (e) => {
-  store.dispatch({ type: 'INCREMENT' })
-})
-
-decrement.addEventListener('click', (e) => {
-  store.dispatch({ type: 'DECREMENT' })
-})
