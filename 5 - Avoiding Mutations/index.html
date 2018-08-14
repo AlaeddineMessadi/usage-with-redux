@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Avoiding Mutations</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <p>
+            In React one of the most important and critical parts is avoiding state mutations as in some complex project mutating the state 
+            could cause some unexpected behivours or and results in the app.
+        </p>
+        <p>In this Tutorial, we'll use 'Michel Jakson Expect' (Jest) librarie to make test assertions and <a href="https://github.com/substack/deep-freeze/">'DeepFreez'</a> to make sure that my code is free of mutations</p>
+        <hr>
+        <p>
+            Result in Console!
+        </p>
+        
+        <script src="https://unpkg.com/expect@%3C21/umd/expect.min.js"></script>
+        <script src="https://wzrd.in/standalone/deep-freeze@latest"></script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
